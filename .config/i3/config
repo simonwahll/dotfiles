@@ -206,4 +206,7 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 2 && pkill -SIGRTMIN+1 i3bloc
 bindsym $mod+Escape exec i3lock --color "$bg-color"
 
 # Set wallpaper
-#exec_always feh --bg-scale /home/simon/Wallpapers/default.jpg
+exec_always feh --bg-scale /home/simon/Wallpapers/default
+
+# Set keyboard layout
+exec setxkbmap se
