@@ -2,7 +2,6 @@ syntax on
 
 set tabstop=2
 set expandtab
-
 set number
 
 " vim-plug
