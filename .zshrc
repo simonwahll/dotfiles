@@ -22,9 +22,6 @@ autoload -Uz promptinit
 promptinit
 prompt redhat
 
-alias ls='ls -h --color=auto'
-alias ll='ls -lah --color=auto'
-
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 bindkey '^ ' autosuggest-accept
 
@@ -33,3 +30,11 @@ source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+alias ls='ls -h --color=auto'
+alias ll='ls -lah --color=auto'
+alias e='nvim'
+
+export EDITOR=nvim
+export PATH="$PATH:$HOME/.local/bin/"
+
